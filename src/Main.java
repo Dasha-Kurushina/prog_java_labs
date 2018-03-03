@@ -14,7 +14,9 @@ public class Main {
 			}
 			else
 			{
-				My_Array a = new D2_Random_Array(4,5);
+				My_Array a = new D2_Random_Array(Integer.parseInt(args[1]),Integer.parseInt(args[2]));
+				System.out.println(a);
+				a.sort();
 				System.out.println(a);
 				
 				

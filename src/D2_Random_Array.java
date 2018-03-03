@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 
@@ -39,4 +40,13 @@ public class D2_Random_Array extends My_Array
 		return out;
 	}
 
+	public void sort()
+	{
+		for(int i = 0; i < data.length; i++)
+		{
+			Arrays.sort(data[i]);
+		}
+		
+	}
+	
 }
