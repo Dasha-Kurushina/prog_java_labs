@@ -21,7 +21,8 @@ public class Main {
 		}
 		else
 		{
-			//массив 1
+			a = new D1_User_Array(args);
+			
 		}
 		System.out.println(a);
 		a.sort();
