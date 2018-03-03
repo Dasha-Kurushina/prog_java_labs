@@ -13,7 +13,8 @@ public class Main {
 			}
 			else
 			{
-			//массив 2	
+				D2_Random_Array a = new D2_Random_Array(4,5);
+				
 			}
 		}
 		else
