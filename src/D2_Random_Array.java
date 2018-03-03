@@ -15,5 +15,22 @@ public class D2_Random_Array extends My_Array {
 			}
 		}
 	}
+	
+	public String toString()
+	{
+		String out = "";
+		String comma = ", ";
+		String endl = "\n";
+		
+		for(int i = 0; i < data.length; i++)
+		{
+			for(int j = 0; j < data[i].length; j++)
+			{
+				out += String.valueOf(data[i][j]) + comma;
+			}
+			out += endl;
+		}
+		return out;
+	}
 
 }

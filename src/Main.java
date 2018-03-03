@@ -4,8 +4,9 @@ public class Main {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		if(args[0] == "rand")
+	public static void main(String[] args) 
+	{
+		if(args[0].equals("rand"))
 		{
 			if(args.length == 2)
 			{
@@ -13,7 +14,9 @@ public class Main {
 			}
 			else
 			{
-				D2_Random_Array a = new D2_Random_Array(4,5);
+				My_Array a = new D2_Random_Array(4,5);
+				System.out.println(a);
+				
 				
 			}
 		}
