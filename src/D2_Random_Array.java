@@ -1,13 +1,7 @@
 import java.util.Arrays;
-import java.util.Random;
-
-
 
 public class D2_Random_Array extends My_Array 
 {
-	Random rnd = new Random(System.currentTimeMillis());
-	int min = 10;
-	int max = 100;
 	
 	private int[][] data;
 

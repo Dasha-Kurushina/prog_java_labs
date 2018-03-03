@@ -6,27 +6,28 @@ public class Main {
 	 */
 	public static void main(String[] args) 
 	{
+		My_Array a = null;
+		
 		if(args[0].equals("rand"))
 		{
 			if(args.length == 2)
 			{
-				//массив 1
+				a = new D1_Random_Array(Integer.parseInt(args[1]));
 			}
 			else
 			{
-				My_Array a = new D2_Random_Array(Integer.parseInt(args[1]),Integer.parseInt(args[2]));
-				System.out.println(a);
-				a.sort();
-				System.out.println(a);
-				
-				
+				a = new D2_Random_Array(Integer.parseInt(args[1]),Integer.parseInt(args[2]));
 			}
 		}
 		else
 		{
 			//массив 1
 		}
-
+		System.out.println(a);
+		a.sort();
+		System.out.println(a);
 	}
+	
+	
 
 }
